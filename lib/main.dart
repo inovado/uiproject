@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uiproject/SkateShop.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
  
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: SkatePage(),
+      home: SkateShop(),
     );
   }
 }
@@ -117,9 +118,7 @@ Widget appBar(BuildContext context) {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.end,
             children: <Widget>[
-              SizedBox(
-                height: 8,
-              ),
+              SizedBox(height: 8,),
               Text(
                 "SLIME MONSTER",
                 style: Theme
